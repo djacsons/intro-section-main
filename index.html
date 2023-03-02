@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="main.css">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <div id="darkScreen" class="darkScreen mobile"></div>
+    <div class="mobileTopDiv mobile">
+      <img src="images/logo.svg" alt="page logo" width="20%">
+      <img id = "openMenu" src="images/icon-menu.svg" alt="menu icon" style="cursor: pointer;">
+    </div>
+    <div class="dropDowns flex pageFont">
+      <div id="upperMenu1" class="dropChildLeft flex">
+        <img src="images/logo.svg" alt="page logo" width="18%" class="desktop">
+        <img id = "closeMenu" src="images/icon-close-menu.svg" alt="close menu" class="mobile closeMenu" width="15%">
+        <div id="featLink"class="features linkDiv flex">
+         <p>Features</p> 
+         <picture class="arrow"><img src="images/icon-arrow-down.svg" alt="arrow down"></picture>
+        </div>
+        <div class="featuresMenu flexMenu invisible featuresMenuMobile">
+          <div class="todoList linkDiv"> <img class="featIcons" src="images/icon-todo.svg" alt="todo"> Todo List</div>
+          <div class="Calendar linkDiv"><img class="featIcons" src="images/icon-calendar.svg" alt="calendar"> Calendar</div>
+          <div class="reminders linkDiv"><img class="featIcons" src="images/icon-reminders.svg" alt="reminders">  Reminders</div>
+          <div class="planning linkDiv"><img class="featIcons" src="images/icon-planning.svg" alt="planning"> Planning</div>
+         </div>
+        <div id="compLink"class="company linkDiv flex">
+          <p>Company</p>
+          <picture class="arrow"><img src="images/icon-arrow-down.svg" alt="arrow down"></picture>
+        </div>
+        <div class="companyMenu flexMenu invisible companyMenuMobile">
+          <div class="linkDiv">History</div>
+          <div class="linkDiv">Our Team</div>
+          <div class="linkDiv">Blog</div>
+        </div>
+
+        <div class="careers linkDiv">Careers</div>
+        <div class="about linkDiv">About</div>
+      </div>
+      <div class="dropChildRight flex">
+        <div class="login linkDiv">Login</div>
+        <div class="registerBtn linkDiv"><p>Register</p></div>
+      </div>
+    </div>
+
+    <div class="mainArea pageFont">
+      <div class="mainAreaLeft">
+        <div class="mainAreaLeftChild1 desktop">Make <br>remote work</div>
+        <div class="mainAreaLeftChild1 mobile">Make remote work</div>
+        <div class="mainAreaLeftChild2">Get your team in sync, no matter your location. Streamline processes, 
+          create team rituals, and watch productivity soar.</div>
+        <div class="mainAreaLeftChild3"><p>Learn more</p></div>
+        <div class="mainAreaLeftChild4 flex">
+          <img src="images/client-databiz.svg" alt="databiz" height="40%">
+          <img src="images/client-audiophile.svg" alt="audiophile" height="70%">
+          <img src="images/client-meet.svg" alt="meet" height="40%">
+          <img src="images/client-maker.svg" alt="maker" height="50%">
+        </div>
+      </div>
+      <div class="mainAreaRight">
+        <img src="images/image-hero-desktop.png" alt="image hero desktop" width="100%" class="desktop">
+        <img src="images/image-hero-mobile.png" alt="image hero mobile" class="mobilePic">
+      </div>
+    </div>
+    
+  </main>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/djacsons">Djacson Stvil</a>.
+    </div>
+  </footer>
+  
+  <script src="main.js"></script>
+</body>
+</html>
