@@ -76,7 +76,7 @@ openMenu.addEventListener('click', ()=>{
     darkScreen.style.visibility = 'visible'
 })
 window.addEventListener('resize', ()=>{
-    if (window.innerWidth>600){
+    if (window.innerWidth>700){
         menuCollapse()
         mainMenu.style.visibility = 'visible'
     } 

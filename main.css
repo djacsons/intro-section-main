@@ -162,10 +162,10 @@ main{
     display: none;
 }
 
-@media only screen and (max-width:600px){
+@media only screen and (max-width:700px){
     .dropDowns{
         background-color: white;
-        width: 20rem;
+        width: 15rem;
         position: absolute;
         z-index: 2;
         flex-direction: column;
@@ -196,7 +196,7 @@ main{
     .dropChildRight{
         flex-direction: column;
         justify-content: space-around;
-        width: 100%;
+        width: 90%;
         height: 12%;
         margin-top: 1rem;
     }
@@ -204,7 +204,7 @@ main{
         display: none;
     }
     .mainArea{
-        width: 30rem;
+        width: 25rem;
         height: 55rem;
         align-self: center;
         margin: 4rem;
