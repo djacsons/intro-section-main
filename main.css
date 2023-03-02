@@ -170,7 +170,7 @@ main{
         z-index: 2;
         flex-direction: column;
         justify-content: flex-start;
-        height: 70rem;
+        height: 50rem;
         margin-left: 15rem;
         margin-top: 1rem;
         padding-right: 4rem;
@@ -183,8 +183,9 @@ main{
         justify-content: space-between;
         align-items: flex-start;
         padding: 1rem;
+        padding-right: 3rem;
         margin-top: 1rem;
-        width: 80%;
+        width: 75%;
         height: 15rem;
     }
     .company>p{
@@ -199,6 +200,7 @@ main{
         width: 90%;
         height: 12%;
         margin-top: 1rem;
+        padding-right: 2rem;
     }
     .desktop{
         display: none;
@@ -270,6 +272,9 @@ main{
         width: 80%;
         height: 40%;
         border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .featuresMenuMobile{
         height: 14rem;

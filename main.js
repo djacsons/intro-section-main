@@ -9,7 +9,7 @@ const openMenu = document.querySelector('#openMenu')
 const darkScreen = document.querySelector('#darkScreen')
 //for changes in mobile heights:
 let menuHeightNum = 15
-let heightChange = 12
+let heightChange = 8
 
 featLink.addEventListener('click', ()=>{
     if (window.innerWidth > 600){
@@ -81,4 +81,9 @@ window.addEventListener('resize', ()=>{
         mainMenu.style.visibility = 'visible'
     } 
     else mainMenu.style.visibility = 'hidden'
+})
+darkScreen.addEventListener('click', ()=>{
+    mainMenu.style.visibility = 'hidden'
+    darkScreen.style.visibility = 'hidden'
+    menuCollapse()
 })
