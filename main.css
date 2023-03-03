@@ -170,7 +170,7 @@ main{
         z-index: 2;
         flex-direction: column;
         justify-content: flex-start;
-        height: 50rem;
+        height: 70rem;
         margin-left: 15rem;
         margin-top: 1rem;
         padding-right: 4rem;
@@ -184,7 +184,7 @@ main{
         align-items: flex-start;
         padding: 1rem;
         padding-right: 3rem;
-        margin-top: 1rem;
+        margin-top: 10rem;
         width: 75%;
         height: 15rem;
     }

@@ -12,7 +12,7 @@ let menuHeightNum = 15
 let heightChange = 8
 
 featLink.addEventListener('click', ()=>{
-    if (window.innerWidth > 600){
+    if (window.innerWidth > 700){
         if (featMenu.classList.contains('invisible')) featMenu.classList.remove('invisible')
         else if (!featMenu.classList.contains('invisible')) featMenu.classList.add('invisible')
     }
@@ -33,7 +33,7 @@ featLink.addEventListener('click', ()=>{
 
 })
 compLink.addEventListener('click', ()=>{
-    if (window.innerWidth > 600){
+    if (window.innerWidth > 700){
         if (compMenu.classList.contains('invisible')) compMenu.classList.remove('invisible')
         else if (!compMenu.classList.contains('invisible')) compMenu.classList.add('invisible')
     }
